@@ -24,5 +24,29 @@ Then expand the filesystem also in the raspi-config menu via 'Advanced Options'
 
   - pi@raspberrypi:~ $ sudo apt-get update
   - pi@raspberrypi:~ $ sudo apt-get upgrade
-  
+
+
+### Install image I/O packages:
+
+  - pi@raspberrypi:~ $ sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev
+  - pi@raspberrypi:~ $ sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev 
+  - pi@raspberrypi:~ $ sudo apt-get install libxvidcore-dev libx264-dev
+  - pi@raspberrypi:~ $ sudo apt-get install libgtk2.0-dev
+  - pi@raspberrypi:~ $ sudo apt-get install libatlas-base-dev gfortran
+
+
+### Install package manegement tool pip
+
+  - pi@raspberrypi:~ $ sudo apt-get install python3-pip
+
+### Install Numpy
+
+  - pi@raspberrypi:~ $ pip install numpy
+
+### OpenCV from default Raspbian repository
+
+  - pi@raspberrypi:~ $ apt list python*opencv*
+  - pi@raspberrypi:~ $ sudo apt install python3-opencv 
+  - pi@raspberrypi:~ $ apt show python3-opencv
+
   
