@@ -9,7 +9,7 @@ pipe = '"rtspsrc location=\"rtsp://admin:password@192.168.1.65:554/Streaming/Cha
 led = LED(17)
 
 # Load the cascade
-face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+face_cascade = cv2.CascadeClassifier('hotdog.xml')
 
 # To capture video from webcam.
 cap = cv2.VideoCapture(0)
