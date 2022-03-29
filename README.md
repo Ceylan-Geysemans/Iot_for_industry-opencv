@@ -12,7 +12,7 @@ Installation of Open CV:
 
 Enablea camera:
 
-  pi@raspberrypi:~ $ sudo raspi-config
+pi@raspberrypi:~ $ sudo raspi-config
   
 ![Screenshot 2022-03-29 at 15 30 41](https://user-images.githubusercontent.com/59376179/160622689-b0b91a0e-3ca3-4ef9-a936-ad49a798dda3.png)
 
@@ -22,7 +22,7 @@ Then expand the filesystem also in the raspi-config menu via 'Advanced Options'
 
 First, update and upgrade any existing packages with:
 
-  -pi@raspberrypi:~ $ sudo apt-get update
-  -pi@raspberrypi:~ $ sudo apt-get upgrade
+pi@raspberrypi:~ $ sudo apt-get update
+pi@raspberrypi:~ $ sudo apt-get upgrade
   
   
