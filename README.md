@@ -20,7 +20,7 @@ Then expand the filesystem also in the raspi-config menu via 'Advanced Options'
 
 ![Screenshot 2022-03-29 at 15 32 06](https://user-images.githubusercontent.com/59376179/160623107-a4b4b54a-1fcb-47d4-b61b-616c76546969.png)
 
-<h1>First, update and upgrade any existing packages with:<h1>
+###First, update and upgrade any existing packages with:
 
 pi@raspberrypi:~ $ sudo apt-get update
 pi@raspberrypi:~ $ sudo apt-get upgrade
