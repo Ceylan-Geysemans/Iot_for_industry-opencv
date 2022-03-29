@@ -49,4 +49,12 @@ Then expand the filesystem also in the raspi-config menu via 'Advanced Options'
   - pi@raspberrypi:~ $ sudo apt install python3-opencv 
   - pi@raspberrypi:~ $ apt show python3-opencv
 
+### Run the python script with Thonny on raspbian
+
+<img width="1072" alt="Screenshot 2022-03-29 at 15 46 03" src="https://user-images.githubusercontent.com/59376179/160626281-714fea7d-670c-4788-919a-131c09d84654.png">
+
+<img width="717" alt="Screenshot 2022-03-29 at 15 49 34" src="https://user-images.githubusercontent.com/59376179/160626392-2c71ecf0-9c1e-464d-80ba-d896f4170617.png">
+
+
+
   
